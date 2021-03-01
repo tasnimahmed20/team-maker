@@ -1,0 +1,94 @@
+.card-container {
+    width: 400px;
+    height: 450px;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    border-radius: 20px;
+    margin: 0px auto;
+    transition: all 0.5s ease-in-out 0s;
+}
+.card-container:hover {
+    background-color: rgb(255, 255, 255);
+}
+.cover-image {
+    background-image: url(../../images/pattern3.svg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.add-button {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0), rgb(255, 255, 255));
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out 0s;
+    color: #fff;
+    font-size:22px
+}
+.add-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #19a2ae;
+}
+
+.profile-image {
+    height: 120px;
+    width: 120px;
+    top: 50px;
+    left: 150px;
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 50%;
+}
+.profile-image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.insights {
+    justify-content: space-around;
+    border-top: 1px solid rgba(106, 111, 129, 0.4);
+}
+.insights-item {
+    flex-direction: column;
+    width: 140px;
+    margin: 30px 0px;
+}
+ .insights-item > h6 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+#month, .insights-item > p {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.insights-item > p {
+    letter-spacing: 3px;
+    color: rgb(106, 111, 129);
+}
+.insights, .insights-item {
+    display: flex;
+    align-items: center;
+}
+.add-button.disabled {
+    display: none!important;
+}

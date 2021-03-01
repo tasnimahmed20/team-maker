@@ -1,0 +1,22 @@
+.logo{
+    color: #fff!important;
+    font-size:2rem;
+    font-weight:700;
+}
+.navItem{
+    color: #fff!important;
+    font-size:20px;
+    font-weight:400;
+    margin: 0px 25px;
+    transition:0.4s ease-in-out;
+    padding: 10px 20px!important;
+    border-radius: 10px;
+}
+.navItem:hover{
+    background-image: linear-gradient(to right bottom,hsla(0,0%,100%,.5),hsla(0,0%,100%,.1));
+    
+}
+.navbar-light .navbar-toggler {
+
+    border-color: #fff;
+}

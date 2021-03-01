@@ -1,0 +1,17 @@
+.player-container{
+    display:flex;
+}
+.cards {
+    width: 70%;;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+    margin: 0 30px;
+} 
+.addPlayer{
+    width: 30%;
+    background-image: url('../../images/pattern4.svg');
+    border-radius:10px;
+    text-align: center!important;
+    padding: 20px 15px;
+}

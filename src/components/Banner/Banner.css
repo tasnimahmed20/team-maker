@@ -1,0 +1,15 @@
+.banner{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.banner h1{
+    font-size:4rem;
+}
+.banner p{
+    font-size:1.5rem
+}
